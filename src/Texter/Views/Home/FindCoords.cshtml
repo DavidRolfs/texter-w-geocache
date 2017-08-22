@@ -1,0 +1,17 @@
+﻿
+
+@using (Html.BeginForm())
+{
+    <div id="geoForm">
+
+        <label for="Lat">Latitude</label>
+        <input type="text" name="Lat" />
+        <label for="Lng">Longitude</label>
+        <input type="text" name="Lng" />
+ 
+
+
+    <input type="submit" value="Search" />
+    </div>
+}
+@Html.ActionLink("Back to List", "Index")
